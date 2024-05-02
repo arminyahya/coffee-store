@@ -15,6 +15,7 @@ export default function ProductItem(props: Props) {
             </div>
             <div className="product-item_title">{title}</div>
             <div className="product_item_prize">{prize}</div>
+            <div className="product_item_add-to-cart">add to cart</div>
         </div>
     )
 }

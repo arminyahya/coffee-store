@@ -53,19 +53,28 @@ a {
 
 .product-item {
   height: 400px;
-  width: 300px
+  width: 300px;
+  cursor: pointer;
 }
 
 .product-item_image-wrapper {
   position: relative;
-  height: 360px;
+  height: 340px;
 }
 
 .all-products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.product-item_title, .product_item_prize {
+.product-item_title, .product_item_prize, .product_item_add-to-cart {
   text-align: center;
+}
+
+.product_item_add-to-cart {
+  height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #c2a289;
 }
