@@ -18,6 +18,15 @@ html, body {
   flex-wrap: wrap;
 }
 
-.footer_item {
+.footer_item {}
 
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 1px;
+}
+
+.header .header-item{
+  padding: 5px;
 }
