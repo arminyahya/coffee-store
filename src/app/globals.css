@@ -69,3 +69,11 @@ a {
 .product-item_title, .product_item_prize {
   text-align: center;
 }
+
+.cart{
+  background-color: gray;
+    position: absolute;
+    top: 80px;
+    height: 100%;
+    left: 0;
+}
