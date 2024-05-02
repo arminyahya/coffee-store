@@ -4,7 +4,7 @@ import Footer from "./_Components/footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className="root">
       <Footer />
     </div>
   );
