@@ -3,13 +3,16 @@ import Image from "next/image";
 type Props =  {
     title: string;
     prize: string;
+    imageAddress: string;
 }
 
 export default function ProductItem(props: Props) {
-    const { title, prize } = props;
+    const { title, prize, imageAddress } = props;
     return (
         <div className="product-item">
-            <Image alt="product" src={''} />
+            <div className="product-item_image-wrapper">
+            <Image alt="product" src={imageAddress} fill/>
+            </div>
             <div className="product-item_title">{title}</div>
             <div className="product_item_prize">{prize}</div>
         </div>

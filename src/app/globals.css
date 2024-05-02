@@ -50,3 +50,22 @@ a {
   padding: 5px 1px;
   border-bottom: 1px solid gray;
 }
+
+.product-item {
+  height: 400px;
+  width: 300px
+}
+
+.product-item_image-wrapper {
+  position: relative;
+  height: 360px;
+}
+
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item_title, .product_item_prize {
+  text-align: center;
+}
