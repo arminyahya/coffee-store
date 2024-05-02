@@ -3,6 +3,11 @@ html, body {
   margin: 0;
 }
 
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+}
+
 .root {
   display: flex;
   flex-direction: column;
@@ -32,6 +37,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   padding: 5px 1px;
+  border-bottom: 1px solid gray;
 }
 
 .header .header-item{
@@ -42,5 +48,5 @@ html, body {
   display: flex;
   justify-content: center;
   padding: 5px 1px;
-  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
