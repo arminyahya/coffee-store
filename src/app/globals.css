@@ -72,6 +72,16 @@ a {
   text-align: center;
 }
 
+.cart{
+  background-color: gray;
+    position: absolute;
+    top: 80px;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+    width: 25%;
+}
+
 .product_item_add-to-cart {
   height: 20px;
   border-radius: 5px;
