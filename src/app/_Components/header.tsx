@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Header({ }) {
     return (
 
@@ -5,15 +7,19 @@ export default function Header({ }) {
             <div className="header-inner-top">
                 <div className="header-item">Your Cart</div>
                 <div className="header-item">UserInfo</div>
-                <div className="header-item">LOGO</div>
+                <div className="header-item">
+                    <Link href="/">
+                        LOGO
+                    </Link>
+                </div>
                 <div className="header-item">Socials</div>
             </div>
             <div className="header-inner-bottom">
-                <div className="header-item">Mix</div>
-                <div className="header-item">Turk</div>
-                <div className="header-item">Decaff</div>
-                <div className="header-item">Posts</div>
-                <div className="header-item">About Us</div>
+                <div className="header-item"><Link href="/Mix">Mix</Link></div>
+                <div className="header-item"><Link href="/Turk">Turk</Link></div>
+                <div className="header-item"><Link href="/Decaff">Decaff</Link></div>
+                <div className="header-item"><Link href="/Posts">Posts</Link></div>
+                <div className="header-item"><Link href="/About Us">About Us</Link></div>
             </div>
         </div>
     )

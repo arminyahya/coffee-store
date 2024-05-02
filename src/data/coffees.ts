@@ -4,6 +4,7 @@ type Coffee = {
   prize: string;
   description: string;
   category: "mix" | "turk" | "decaffee";
+  imageAddress: string;
 };
 
 const coffees: Coffee[] = [
@@ -13,6 +14,8 @@ const coffees: Coffee[] = [
     prize: "$2.50",
     description: "Rich and intense coffee flavor with a thick crema on top.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 2,
@@ -21,6 +24,8 @@ const coffees: Coffee[] = [
     description:
       "Espresso with steamed milk and a generous amount of frothy foam.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 3,
@@ -28,6 +33,8 @@ const coffees: Coffee[] = [
     prize: "$4.00",
     description: "Espresso with steamed milk and a touch of foam.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 4,
@@ -35,6 +42,8 @@ const coffees: Coffee[] = [
     prize: "$2.75",
     description: "Espresso with a dollop of foamed milk.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 5,
@@ -42,6 +51,8 @@ const coffees: Coffee[] = [
     prize: "$3.00",
     description: "Traditional Turkish coffee brewed with cardamom.",
     category: "turk",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 6,
@@ -50,6 +61,8 @@ const coffees: Coffee[] = [
     description:
       "Espresso with chocolate and steamed milk, topped with whipped cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 7,
@@ -57,6 +70,8 @@ const coffees: Coffee[] = [
     prize: "$3.00",
     description: "Espresso diluted with hot water.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 8,
@@ -64,6 +79,8 @@ const coffees: Coffee[] = [
     prize: "$3.50",
     description: "Chilled coffee served over ice.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 9,
@@ -71,6 +88,8 @@ const coffees: Coffee[] = [
     prize: "$3.00",
     description: "Espresso made from decaffeinated coffee beans.",
     category: "decaffee",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 10,
@@ -79,6 +98,8 @@ const coffees: Coffee[] = [
     description:
       "Espresso with velvety steamed milk and a thin layer of microfoam.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 11,
@@ -86,6 +107,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Espresso poured over a scoop of vanilla ice cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 12,
@@ -93,6 +116,8 @@ const coffees: Coffee[] = [
     prize: "$3.50",
     description: "Equal parts espresso and steamed milk.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 13,
@@ -100,6 +125,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Cold brew coffee infused with nitrogen for a creamy texture.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 14,
@@ -107,6 +134,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Espresso with whipped cream and a sprinkle of cinnamon.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 15,
@@ -114,6 +143,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Coffee with a shot of whiskey, sugar, and topped with cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 16,
@@ -121,6 +152,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Golden milk latte made with turmeric, ginger, and cinnamon.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 17,
@@ -128,6 +161,8 @@ const coffees: Coffee[] = [
     prize: "$3.00",
     description: "Very concentrated espresso with a more intense flavor.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 18,
@@ -136,6 +171,8 @@ const coffees: Coffee[] = [
     description:
       "Cold steeped coffee brewed over a long period and served cold.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 19,
@@ -143,6 +180,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Espresso with steamed half-and-half instead of milk.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 20,
@@ -150,6 +189,8 @@ const coffees: Coffee[] = [
     prize: "$3.50",
     description: "Drip coffee with a shot of espresso.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 21,
@@ -157,6 +198,8 @@ const coffees: Coffee[] = [
     prize: "$3.00",
     description: "French press coffee served black without milk or sugar.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 22,
@@ -164,6 +207,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Latte with vanilla syrup and whipped cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 23,
@@ -171,6 +216,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Blended iced coffee beverage with a variety of flavors.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 24,
@@ -178,6 +225,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Mocha with a hint of mint flavor.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 25,
@@ -185,6 +234,8 @@ const coffees: Coffee[] = [
     prize: "$3.50",
     description: "Espresso, steamed milk, and cocoa powder.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 26,
@@ -192,6 +243,8 @@ const coffees: Coffee[] = [
     prize: "$4.00",
     description: "Turmeric latte with a blend of spices and honey.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 27,
@@ -199,6 +252,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Coffee with a splash of amaretto liqueur.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 28,
@@ -206,6 +261,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Espresso and steamed milk with pumpkin spice syrup.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 29,
@@ -213,6 +270,8 @@ const coffees: Coffee[] = [
     prize: "$4.00",
     description: "Chai latte with a shot of espresso.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 30,
@@ -220,6 +279,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Latte with coconut milk and a hint of sweetness.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 31,
@@ -227,6 +288,8 @@ const coffees: Coffee[] = [
     prize: "$4.00",
     description: "Espresso with steamed milk, vanilla, and caramel drizzle.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 32,
@@ -234,6 +297,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Latte with banana syrup and whipped cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 33,
@@ -242,6 +307,8 @@ const coffees: Coffee[] = [
     description:
       "Latte with cinnamon dolce syrup and cinnamon sprinkled on top.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 34,
@@ -250,6 +317,8 @@ const coffees: Coffee[] = [
     description:
       "Latte with lavender syrup and a sprinkle of dried lavender petals.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 35,
@@ -257,6 +326,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Latte made with matcha green tea powder and steamed milk.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 36,
@@ -264,6 +335,8 @@ const coffees: Coffee[] = [
     prize: "$4.00",
     description: "Mocha with peppermint syrup and topped with whipped cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 37,
@@ -271,6 +344,8 @@ const coffees: Coffee[] = [
     prize: "$5.00",
     description: "Latte with toffee nut syrup and whipped cream.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 38,
@@ -278,6 +353,8 @@ const coffees: Coffee[] = [
     prize: "$4.50",
     description: "Mocha with coconut syrup and toasted coconut flakes on top.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 39,
@@ -286,6 +363,8 @@ const coffees: Coffee[] = [
     description:
       "Latte with hazelnut syrup and a sprinkle of chopped hazelnuts.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
   {
     id: 40,
@@ -294,6 +373,8 @@ const coffees: Coffee[] = [
     description:
       "Coffee blended with grass-fed butter and coconut oil for a creamy texture.",
     category: "mix",
+    imageAddress:
+      "https://emkan-coffee.com/wp-content/uploads/2020/12/Emkan-100-s-250.jpg",
   },
 ];
 
