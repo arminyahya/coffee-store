@@ -96,7 +96,6 @@ a {
 .related-products {
   border: 1px solid rgba(228, 228, 228);
   display: flex;
-  overflow-x: auto;
 }
 
 .product-detail{
