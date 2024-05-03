@@ -6,7 +6,7 @@ export default async function AllProducts() {
     return <div className="all-products">{products.map(product => (
         <ProductItem
             title={product.title}
-            prize={product.prize}
+            price={product.price}
             imageAddress={product.imageAddress}
             id={product.id}
         />

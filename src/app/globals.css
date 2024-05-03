@@ -29,6 +29,10 @@ a {
 .footer_item {}
 
 .header{
+  height: 100px;
+}
+
+.header-inner{
   display: flex;
   flex-direction: column;
 }
@@ -68,7 +72,7 @@ a {
   justify-content: space-between;
 }
 
-.product-item_title, .product_item_prize, .product_item_add-to-cart {
+.product-item_title, .product_item_price, .product_item_add-to-cart {
   text-align: center;
 }
 
@@ -93,4 +97,19 @@ a {
   border: 1px solid rgba(228, 228, 228);
   display: flex;
   overflow-x: auto;
+}
+
+.product-detail{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-detail-inner{
+  width:50%
+}
+
+.product-detail-inner-image{
+  height:340px ;
+  position: relative;
 }
