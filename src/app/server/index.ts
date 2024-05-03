@@ -6,7 +6,10 @@ export async function getAllProducts() {
 
 export async function getProductByID(id: number) {
   const data = coffees.filter((c) => c.id == id);
-  console.log(data);
-
   return data[0];
+}
+
+export async function getAllProductsByCategory(category: "mix" | "turk" | "decaffee") {
+  const data = coffees.filter((c) => c.category == category.toLocaleLowerCase());
+  return data;
 }

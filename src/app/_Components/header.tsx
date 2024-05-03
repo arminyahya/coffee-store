@@ -5,7 +5,6 @@ export default function Header({ }) {
     return (
 
         <div className="header">
-            <div className='header-inner'>
                 <div className="header-inner-top">
                     <div className="header-item" ><Cart /></div>
                     <div className="header-item">UserInfo</div>
@@ -20,6 +19,5 @@ export default function Header({ }) {
                     <div className="header-item"><Link href="/About Us">About Us</Link></div>
                 </div>
             </div>
-        </div>
     )
 }
