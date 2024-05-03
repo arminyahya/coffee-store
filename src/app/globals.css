@@ -112,3 +112,9 @@ a {
   height:340px ;
   position: relative;
 }
+
+.breadcrumb{
+  border-bottom: 1px solid #c2a289;
+  display: flex;
+  justify-content: row;
+}
