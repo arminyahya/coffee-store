@@ -1,13 +1,17 @@
+import "server-only"
 import Link from 'next/link';
 import Cart from './cart';
+import { cookies } from 'next/headers';
 
 export default function Header({ }) {
+    const isLoggin = cookies().get('session')?.value;
+    console.log(isLoggin);
     return (
 
         <div className="header">
             <div className="header-inner-top">
                 <div className="header-item" ><Cart /></div>
-                <div className="header-item">UserInfo</div>
+                <div className="header-item"><Link href={isLoggin ? "/" : "/LogIn"}>{isLoggin ? "logout" : "login" }</Link></div>
                 <div className="header-item"><Link href="/">LOGO</Link></div>
                 <div className="header-item">Socials</div>
             </div>

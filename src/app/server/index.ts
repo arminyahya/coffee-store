@@ -9,7 +9,17 @@ export async function getProductByID(id: number) {
   return data[0];
 }
 
-export async function getAllProductsByCategory(category: "mix" | "turk" | "decaffee") {
-  const data = coffees.filter((c) => c.category == category.toLocaleLowerCase());
+export async function getAllProductsByCategory(
+  category: "mix" | "turk" | "decaffee"
+) {
+  const data = coffees.filter(
+    (c) => c.category == category.toLocaleLowerCase()
+  );
   return data;
 }
+
+export async function signIn(formData: any) {
+
+  return 12
+}
+
